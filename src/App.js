@@ -17,12 +17,12 @@ function App() {
         <Link to="/nikitha">Nikitha</Link>
         <Link to="/pranit">Pranit</Link>
         <Link to="/subhadip">Subhadip</Link>
-        <Route path="/anil" component={Anil}></Route>
-        <Route path="/chaitra" component={Chaitra}></Route>
-        <Route path="/chiranth" component={Chiranth}></Route>
-        <Route path="/nikitha" component={Nikitha}></Route>
-        <Route path="/pranit" component={Pranit}></Route>
-        <Route path="/subhadip" component={Subhadip}></Route>
+        <Route path="/anil" component={Anil} />
+        <Route path="/chaitra" component={Chaitra} />
+        <Route path="/chiranth" component={Chiranth} />
+        <Route path="/nikitha" component={Nikitha} />
+        <Route path="/pranit" component={Pranit} />
+        <Route path="/subhadip" component={Subhadip} />
       </div>
     </Router>
   )
